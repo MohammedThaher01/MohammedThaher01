@@ -59,3 +59,11 @@ Lately, I've been especially interested in custom Hybrid ReAct architectures, La
   </tr>
 </table>
 
+### A little about me
+
+I'm a B.E. Computer Science and Engineering graduate from Sathyabama Institute of Science and Technology.
+
+Beyond building personal projects, I have hands-on experience integrating frontend UI components with a Django backend during my internship at Campervan Factory at the IIT Madras Research Park.
+
+I thrive in high-pressure engineering environments—I won the national AgriTech Hackathon by fine-tuning an EfficientNetB4 model to 95% accuracy under competition deadlines, and reached the finals of the Zelestra x AWS ML Hackathon with a complex stacking ensemble.
+
