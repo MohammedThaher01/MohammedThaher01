@@ -67,3 +67,15 @@ Beyond building personal projects, I have hands-on experience integrating fronte
 
 I thrive in high-pressure engineering environments—I won the national AgriTech Hackathon by fine-tuning an EfficientNetB4 model to 95% accuracy under competition deadlines, and reached the finals of the Zelestra x AWS ML Hackathon with a complex stacking ensemble.
 
+### GitHub Stats
+<!--START_SECTION:waka-->
+[![Mohammed's GitHub stats](https://github-readme-stats.vercel.app/api?username=MohammedThaher01&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+<!--END_SECTION:waka-->
+
+<h2 align="center"> Find Me </h2>
+<div align="center">
+  <a href="mailto:thahercareer@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/mohammed-thaher-s/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ </div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
