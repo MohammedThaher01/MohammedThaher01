@@ -1,6 +1,6 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hey+There,+I'm+Mohammed👋;AI+%26+Backend+Engineer+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=35&center=true&vCenter=true&width=1000&lines=Hey+There,+I'm+Thaher👋;AI+%26+Backend+Engineer+:%29)](https://git.io/typing-svg)
 
 <h3 align="center">
     AI Systems & Backend Developer
@@ -8,7 +8,7 @@
 
 CS graduate who designs and ships agentic LLM systems from scratch. I like AI pipelines that actually work in production, not just in notebooks.
 
-I spend most of my time building things that live behind the UI—FastAPI async backends, RAG pipelines, multimodal computer vision systems, and autonomous agent routing. 
+I spend most of my time building things that live behind the UI: FastAPI async backends, RAG pipelines, multimodal computer vision systems, and autonomous agent routing. 
 
 Lately, I've been especially interested in custom Hybrid ReAct architectures, LangGraph conditional routing, and decoupling CV inference from LLM reasoning.
 
@@ -25,7 +25,6 @@ Lately, I've been especially interested in custom Hybrid ReAct architectures, La
     <td align="center" width="180"><strong>Languages</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
       <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
     </td>
   </tr>
@@ -65,11 +64,11 @@ I'm a B.E. Computer Science and Engineering graduate from Sathyabama Institute o
 
 Beyond building personal projects, I have hands-on experience integrating frontend UI components with a Django backend during my internship at Campervan Factory at the IIT Madras Research Park.
 
-I thrive in high-pressure engineering environments—I won the national AgriTech Hackathon by fine-tuning an EfficientNetB4 model to 95% accuracy under competition deadlines, and reached the finals of the Zelestra x AWS ML Hackathon with a complex stacking ensemble.
+I thrive in high-pressure engineering environments. I won the national AgriTech Hackathon by fine-tuning an EfficientNetB4 model to 95% accuracy under competition deadlines, and reached the finals of the Zelestra x AWS ML Hackathon with a complex stacking ensemble.
 
 ### GitHub Stats
 <!--START_SECTION:waka-->
-[![Mohammed's GitHub stats](https://github-readme-stats.vercel.app/api?username=MohammedThaher01&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Thaher's GitHub stats](https://github-stats-extended.vercel.app/api?username=MohammedThaher01&show_icons=true&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 <!--END_SECTION:waka-->
 
 <h2 align="center"> Find Me </h2>
@@ -78,4 +77,4 @@ I thrive in high-pressure engineering environments—I won the national AgriTech
   <a href="https://www.linkedin.com/in/mohammed-thaher-s/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  </div>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=120&section=footer"/>
