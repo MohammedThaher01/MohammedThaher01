@@ -1,75 +1,53 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=120&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=140&section=header&text=Mohammed%20Thaher%20S&fontSize=36&fontColor=ffffff&fontAlignY=38"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=35&center=true&vCenter=true&width=1000&lines=Hey+There,+I'm+Thaher👋;AI+%26+Backend+Engineer+:%29)](https://git.io/typing-svg)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=700&lines=I+build+LLM+agents+with+rules+in+code;GenAI+%26+Python+backend+engineer;CS+grad+from+Chennai" alt="Typing SVG"/>
+</p>
 
-<h3 align="center">
-    AI Systems & Backend Developer
-</h3>
+I build LLM agents and the backends behind them. Every project below is deployed with a live demo. They're all solo work, and none of them has real users yet, so I'd rather say that up front than hide it.
 
-CS graduate who designs and ships agentic LLM systems from scratch. I like AI pipelines that actually work in production, not just in notebooks.
+I use AI coding tools every day, and I read, test and debug whatever they write before it ships.
 
-I spend most of my time building things that live behind the UI: FastAPI async backends, RAG pipelines, multimodal computer vision systems, and autonomous agent routing. 
+### Projects
 
-Lately, I've been especially interested in custom Hybrid ReAct architectures, LangGraph conditional routing, and decoupling CV inference from LLM reasoning.
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| **Trendly** | Support agent where the LLM reasons but a rules engine makes the final call on returns, blocked categories and escalation. 8 guardrails, 5 Pytest cases. | Python, FastAPI, Groq, Pytest | [Live](https://trendly-agent-1.onrender.com/ui) · [Code](https://github.com/MohammedThaher01/trendly-agent) |
+| **DocuMind** | Turns a plain request into a Word document. A 5 node LangGraph pipeline plans, drafts, critiques its own draft, revises and exports. 7 document types. | LangGraph, FastAPI, React, Groq | [Live](https://docu-mind.up.railway.app) · [Code](https://github.com/MohammedThaher01/DocuMind) |
+| **Multimodal Visual Q&A** | YOLOv8m detects objects, and the structured output goes to Gemini to answer questions about counts and positions. A two stage pipeline, not an agent. | YOLOv8, Gemini, LangChain, FastAPI, Gradio | [Live](https://huggingface.co/spaces/7haher/multimodal-vision-qa) |
+| **Document RAG Chatbot** | Upload PDFs, ask questions, get cited answers. | LangChain, FAISS, Groq, Streamlit | [Live](https://doc-rag-chat-bot.streamlit.app) · [Code](https://github.com/MohammedThaher01/doc-rag-chat-bot) |
 
-### A few things I've learned
+### Things I've learned the hard way
 
-> The best LLM agent is strictly constrained by a deterministic rules engine.
+- Rules that must always hold belong in code, not in the prompt. When I changed the model under Trendly, the prompt-based rules stopped being followed.
+- A test that passes on one model proves very little.
+- DocuMind's first critique prompt missed invented prices and conflicting timelines on a messy request, so I rewrote it to check for them.
+- When a deploy fails, read the actual config values before trusting a confident theory. Mine was my API key sitting in the model name field.
 
-> Concurrency gets interesting when you design non-blocking async APIs for heavy GPU inference.
+### Toolbox
 
-### My Usual Toolbox
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/> <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/> <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 
-<table>
-  <tr>
-    <td align="center" width="180"><strong>Languages</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>AI & ML</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-      <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/>
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-      <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Backend & Serving</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
-      <img src="https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio"/>
-      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Data & Tools</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-      <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest"/>
-    </td>
-  </tr>
-</table>
+### Background
 
-### A little about me
+- B.E. Computer Science, Sathyabama Institute of Science and Technology (2026, First Class with Distinction)
+- Intern at Campervan Factory, IIT Madras Research Park: integrated frontend pages with a Django backend for a live travel platform and managed two other interns
+- Winner, AgriTech Hackathon: EfficientNetB4 on 38 crop disease classes, 95% accuracy
+- Finalist, Zelestra x AWS ML Hackathon: stacking ensemble, 94.14% score
 
-I'm a B.E. Computer Science and Engineering graduate from Sathyabama Institute of Science and Technology.
+### Working on
 
-Beyond building personal projects, I have hands-on experience integrating frontend UI components with a Django backend during my internship at Campervan Factory at the IIT Madras Research Park.
+- A web search fallback for the RAG chatbot
+- An LLM fine-tuning project
 
-I thrive in high-pressure engineering environments. I won the national AgriTech Hackathon by fine-tuning an EfficientNetB4 model to 95% accuracy under competition deadlines, and reached the finals of the Zelestra x AWS ML Hackathon with a complex stacking ensemble.
+### Find me
 
-<h2 align="center"> Find Me </h2>
-<div align="center">
-  <a href="mailto:thahercareer@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/mohammed-thaher-s/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- </div>
+<p>
+  <a href="mailto:thahercareer@gmail.com"><img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mohammed-thaher-s/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://thahersprofile.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6366f1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+</p>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=120&section=footer"/>
+<img src="https://github-readme-stats.vercel.app/api?username=MohammedThaher01&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=100&section=footer"/>
