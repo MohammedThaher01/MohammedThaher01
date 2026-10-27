@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=140&section=header&text=Mohammed%20Thaher%20S&fontSize=36&fontColor=ffffff&fontAlignY=38"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=700&lines=I+build+LLM+agents+with+rules+in+code;GenAI+%26+Python+backend+engineer;CS+grad+from+Chennai" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=700&lines=I+build+LLM+agents+with+rules+in+code;GenAI+%26+Python+backend+engineer;CS+grad+from+Chennai,India" alt="Typing SVG"/>
 </p>
 
 I build LLM agents and the backends behind them. Every project below is deployed with a live demo. They're all solo work, and none of them has real users yet, so I'd rather say that up front than hide it.
@@ -14,7 +14,7 @@ I use AI coding tools every day, and I read, test and debug whatever they write 
 |---|---|---|---|
 | **Trendly** | Support agent where the LLM reasons but a rules engine makes the final call on returns, blocked categories and escalation. 8 guardrails, 5 Pytest cases. | Python, FastAPI, Groq, Pytest | [Live](https://trendly-agent-1.onrender.com/ui) · [Code](https://github.com/MohammedThaher01/trendly-agent) |
 | **DocuMind** | Turns a plain request into a Word document. A 5 node LangGraph pipeline plans, drafts, critiques its own draft, revises and exports. 7 document types. | LangGraph, FastAPI, React, Groq | [Live](https://docu-mind.up.railway.app) · [Code](https://github.com/MohammedThaher01/DocuMind) |
-| **Multimodal Visual Q&A** | YOLOv8m detects objects, and the structured output goes to Gemini to answer questions about counts and positions. A two stage pipeline, not an agent. | YOLOv8, Gemini, LangChain, FastAPI, Gradio | [Live](https://huggingface.co/spaces/7haher/multimodal-vision-qa) |
+| **Multimodal Visual Q&A** | YOLOv8m detects objects, and the structured output goes to Gemini to answer questions about counts and positions. A two stage pipeline, not an agent. | YOLOv8, Gemini, LangChain, FastAPI, Gradio | [Live](https://huggingface.co/spaces/7haher/multimodal-vision-qa) |[Code]([https://github.com/MohammedThaher01/doc-rag-chat-bot) |
 | **Document RAG Chatbot** | Upload PDFs, ask questions, get cited answers. | LangChain, FAISS, Groq, Streamlit | [Live](https://doc-rag-chat-bot.streamlit.app) · [Code](https://github.com/MohammedThaher01/doc-rag-chat-bot) |
 
 ### Things I've learned the hard way
@@ -35,10 +35,6 @@ I use AI coding tools every day, and I read, test and debug whatever they write 
 - Winner, AgriTech Hackathon: EfficientNetB4 on 38 crop disease classes, 95% accuracy
 - Finalist, Zelestra x AWS ML Hackathon: stacking ensemble, 94.14% score
 
-### Working on
-
-- A web search fallback for the RAG chatbot
-- An LLM fine-tuning project
 
 ### Find me
 
@@ -46,6 +42,7 @@ I use AI coding tools every day, and I read, test and debug whatever they write 
   <a href="mailto:thahercareer@gmail.com"><img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/mohammed-thaher-s/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://thahersprofile.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6366f1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="https://x.com/Thaher01"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
 </p>
 
 <img src="https://github-readme-stats.vercel.app/api?username=MohammedThaher01&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
