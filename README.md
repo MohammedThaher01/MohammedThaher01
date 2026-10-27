@@ -14,7 +14,7 @@ I use AI coding tools every day, and I read, test and debug whatever they write 
 |---|---|---|---|
 | **Trendly** | Support agent where the LLM reasons but a rules engine makes the final call on returns, blocked categories and escalation. 8 guardrails, 5 Pytest cases. | Python, FastAPI, Groq, Pytest | [Live](https://trendly-agent-1.onrender.com/ui) · [Code](https://github.com/MohammedThaher01/trendly-agent) |
 | **DocuMind** | Turns a plain request into a Word document. A 5 node LangGraph pipeline plans, drafts, critiques its own draft, revises and exports. 7 document types. | LangGraph, FastAPI, React, Groq | [Live](https://docu-mind.up.railway.app) · [Code](https://github.com/MohammedThaher01/DocuMind) |
-| **Multimodal Visual Q&A** | YOLOv8m detects objects, and the structured output goes to Gemini to answer questions about counts and positions. A two stage pipeline, not an agent. | YOLOv8, Gemini, LangChain, FastAPI, Gradio | [Live](https://huggingface.co/spaces/7haher/multimodal-vision-qa) · [Code]([https://github.com/MohammedThaher01/doc-rag-chat-bot) |
+| **Multimodal Visual Q&A** | YOLOv8m detects objects, and the structured output goes to Gemini to answer questions about counts and positions. A two stage pipeline, not an agent. | YOLOv8, Gemini, LangChain, FastAPI, Gradio | [Live](https://huggingface.co/spaces/7haher/multimodal-vision-qa) · [Code](https://github.com/MohammedThaher01/doc-rag-chat-bot) |
 | **Document RAG Chatbot** | Upload PDFs, ask questions, get cited answers. | LangChain, FAISS, Groq, Streamlit | [Live](https://doc-rag-chat-bot.streamlit.app) · [Code](https://github.com/MohammedThaher01/doc-rag-chat-bot) |
 
 ### Things I've learned the hard way
