@@ -6,7 +6,7 @@
 
 I build LLM agents and the backends behind them. Every project below is deployed with a live demo. They're all solo work, and none of them has real users yet, so I'd rather say that up front than hide it.
 
-I use AI coding tools every day, and I read, test and debug whatever they write before it ships.
+I use AI coding tools every day, and I read, test and debug whatever they write before it ships. Open to AI / SDE roles in India / Remote.
 
 ### Projects
 
